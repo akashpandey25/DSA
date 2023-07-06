@@ -1,5 +1,5 @@
 import java.util.*;
-public class prac {
+public class prac_bitwise {
     public static void main(String a[]){
         // int p=9;
         // int b=10;

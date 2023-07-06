@@ -3,12 +3,12 @@ class occurance{
    
     
 }
-public class arrayOccurance {
+public class lastIndex {
      static int number( int arr[], int k){
-        int count=0;
+        int count=-1;
         for(int i=0;i<arr.length;i++){  
             if(arr[i]==k){
-                count++;
+                count=i;
             }
         }
         return count;
@@ -24,6 +24,7 @@ public class arrayOccurance {
     }
     System.out.println("enter k to find ");
     int k=sc.nextInt();
-    System.out.println("total frequency of given number is:- " + number(arr, k));
+    System.out.println("total lastindex of given number is:- " + number(arr, k));
     }  
 }
+
