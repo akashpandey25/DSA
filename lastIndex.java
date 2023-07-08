@@ -25,6 +25,7 @@ public class lastIndex {
     System.out.println("enter k to find ");
     int k=sc.nextInt();
     System.out.println("total lastindex of given number is:- " + number(arr, k));
+    sc.close();
     }  
 }
 
