@@ -18,7 +18,7 @@ public class spiral_matrix {
             }
             toprow++;
             for(int i=toprow;i<=bottomrow;i++){
-                System.out.print(mat[i][rightcol]+" ");
+                System.out.print(mat[i][rightcol]+" "); 
                 totalMatrix++;
             }
             rightcol--;
