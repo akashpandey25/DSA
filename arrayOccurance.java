@@ -1,8 +1,4 @@
 import java.util.*;
-class occurance{
-   
-    
-}
 public class arrayOccurance {
      static int number( int arr[], int k){
         int count=0;

@@ -6,7 +6,9 @@ public class return_first_repeating_value {
         for(int i=0;i<arr.length;i++){
             for(int j=i+1;j<arr.length;j++){
                 if(arr[i]==arr[j]){
-                    return arr[i];
+                    return arr[i];// for first repeating
+                   // ans=arr[i]; //for last repeating
+                   // break;
                 }
             }
         }
